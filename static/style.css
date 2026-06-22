@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background-image:url("flowershop.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-box{
+
+    width:450px;
+
+    background:rgba(255,255,255,0.85);
+
+    padding:30px;
+
+    border:10px outset #ff69b4;
+
+    border-radius:10px;
+
+    text-align:center;
+
+    margin:20px;
+}
+
+.logo-container{
+
+    width:100px;
+    height:100px;
+
+    margin:0 auto 15px;
+
+    border-radius:50%;
+
+    overflow:hidden;
+
+    border:5px ridge #ff69b4;
+
+    background:white;
+}
+
+.logo-container img{
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+}
+
+h2{
+
+    color:red;
+
+    margin-bottom:20px;
+}
+
+label{
+
+    display:block;
+
+    text-align:left;
+
+    margin-top:10px;
+    margin-bottom:5px;
+}
+
+input{
+
+    width:100%;
+
+    padding:10px;
+
+    margin-bottom:15px;
+
+    border:4px double gray;
+
+    border-radius:5px;
+}
+
+#login-btn{
+
+    width:100%;
+
+    padding:10px;
+
+    background-color:#ff69b4;
+
+    color:white;
+
+    border:none;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+    font-size:16px;
+}
+
+#login-btn:hover{
+
+    background-color:#ff1493;
+}

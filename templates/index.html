@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Bloom Heaven Register</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="login-box">
+
+        <div class="logo-container">
+            <img src="{{ url_for('static', filename='logo.jpg') }}"
+                 alt="Flower Logo">
+        </div>
+
+        <h2 style="color: black;">BLOOM HEAVEN REGISTER</h2>
+
+        <form action="/register" method="POST">
+
+            <label>Username</label>
+            <input
+                type="text"
+                name="username"
+                placeholder="Enter Username"
+                required>
+
+            <label>Phone Number</label>
+            <input
+                type="tel"
+                name="phone"
+                placeholder="Enter Phone Number"
+                required>
+
+            <button id="login-btn" type="submit">
+                Register
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

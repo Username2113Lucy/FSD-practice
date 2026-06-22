@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Successful</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image:url("{{ url_for('static', filename='flowershop.jpg') }}");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .success-box {
+
+            background: white;
+            padding: 40px;
+            width: 500px;
+
+            text-align: center;
+
+            border-radius: 15px;
+
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #ff1493;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        h3 {
+            color: #666;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+
+            display: inline-block;
+
+            padding: 12px 25px;
+
+            background: #ff69b4;
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 5px;
+
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: #ff1493;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="success-box">
+
+        <h1>🌸 Registration Successful 🌸</h1>
+
+        <a href="/" class="btn">
+            Back to Registration
+        </a>
+
+    </div>
+
+</body>
+
+</html>
