@@ -38,6 +38,7 @@ def register():
     values = (username, phone)
 
     cursor.execute(sql, values)
+    db.commit() 
 
     return render_template("Success_register.html")
 
